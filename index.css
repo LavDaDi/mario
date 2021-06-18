@@ -1,0 +1,267 @@
+.body1{
+    background: url('img/My4ghY9Nk5U.jpg ')  ;
+  
+}
+ 
+.game {
+    width: 600px;
+    height: 300px;
+    border-bottom: 4px solid rgb(190, 0, 0);
+    margin-left: 200px;
+    margin-top: 325px;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url('./img/ddxh2tf-fc8fc42e-8794-4501-8621-31a4e68a25b5.gif');
+    background-size: 50px 50px;
+    position: relative;
+    top: 250px;
+
+}
+
+#cactus {
+    width: 40px;
+    height: 40px;
+    background-image: url('./img/256px-Goomba2-unscreen.gif');
+    background-size: 40px 40px;
+    position: relative;
+    top: 210px;
+    left: 580px;
+    animation: cact 1s infinite linear;
+}
+
+@keyframes cact {
+ 0% {
+    left: 580px;
+ }   
+ 100% {
+    left: -40px;
+ } 
+}
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% {
+       top: 200px;
+    }   
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 110px;
+    }
+    70% {
+        top: 150px;
+    }
+    100% {
+       top: 200px;
+    } 
+   }
+
+   .footer {
+    background-color: #3c80ff;
+    color: #6479a2;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-4 {
+    width: 400px;
+    margin-right: 300px;
+    float: left;
+    
+}
+
+.col-4:last-child {
+    margin-right: 0px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #2f78ff;
+    color: #6479a2;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.fotter__name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p.footer__social {
+    color: #FFF;
+}
+p.footer__social-icons{
+    color:#FFF;
+    font-size: 32px;
+}
+p.footer__social-icons a{
+    color: #FFF;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+p.footer__social-icons a:last-child{
+    margin-right: 0px;
+}
+
+p.footer__social-icons a:hover{
+    color: #FFF400;
+    transition: 0.7s linear;
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color: #061634;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+
+    display: inline-block;
+
+    border-width: 2px;
+    border-color: #061634;
+    border-style: solid;
+    border-radius: 50px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    margin-bottom: 13px;
+}
+
+.button:hover {
+    color:#2f78ff;
+    background-color: #061634;
+    transition: 0.8s linear;
+}
+
+
+.body2 {
+    background-image: url('https://images.wallpaperscraft.ru/image/fon_seryj_abstraktsiya_svetlyj_95691_1920x1080.jpg');
+}
+.up1 {
+    width: 99.5%;
+    height: 600px;
+    border: 4px solid darkblue;
+    border-radius: 17px;
+    background-image: url('img/1789786-37793011-2560-1440.jpg' ) ;
+    background-size: 90%;
+}
+.middle {
+    width: 100%;
+    height: 100px;
+}
+.butt {
+    background-color: cornflowerblue; 
+    border: none;
+    width: 140px;
+    height: 72px;
+    color: white;
+    font-size: larger;
+    margin-left: 18%;
+    border: 4px solid #7922CC;
+    border-radius: 18px;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.butt2 {
+    background-color: cornflowerblue; 
+    border: none;
+    width: 140px;
+    height: 72px;
+    color: white;
+    font-size: larger;
+    margin-left: 20%;
+    border: 4px solid #7922CC;
+    border-radius: 18px;
+    margin-top: 2%;
+    cursor: pointer;
+ }
+.butt3 {
+    background-color: cornflowerblue;
+    border: none;
+    width: 180px;
+    height: 72px;
+    color: white;
+    font-size: larger;
+    margin-left: 20%;
+    border: 4px solid #7922CC;
+    border-radius: 18px;
+    margin-top: 2%;
+    cursor: pointer;
+} 
+
+/*/////////////////////////////////////////////////////////////
+
+      PORTFOLIO
+
+/////////////////////////////////////////////////////////////*/
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+
+.portfolio-item__img {
+    margin-bottom: 17px;
+}
+
+.portfolio-item__title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio-item__text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.portfolio-item__title a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.portfolio-item__title a:hover {
+    color: #0052c2;
+    border-color: rgb(0, 82, 194, 0.3);
+    transition: 0.6s linear;
+}
+
+.portfolio-item__text p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
